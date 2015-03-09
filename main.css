@@ -1,0 +1,200 @@
+body {
+		     background: url("images/whiteBg.jpg") no-repeat;
+	background-position: 50% 40%; 
+	        font-family: Oswald, Verdana, sans-serif; 
+}
+
+header {
+	background-color: teal;	   
+	      background: linear-gradient(180deg, teal, #006666);
+	          height: 200px;
+}
+
+h1 {
+	      position: absolute;
+	           top: 10%;
+	         width: 100%; 
+	        height: 140px;
+       line-height: 140px; 
+         font-size: 70px; 
+       font-weight: 400;
+  	letter-spacing: 5px;  
+	    text-align: center; 
+	text-transform: uppercase;	
+             color: white;
+	
+
+}
+
+h1>span {
+	font-weight: 700; 
+}
+
+#container {
+	position: relative; 
+	   width: 100%;
+	  height: 100%;	 
+	   color: #757575;	
+}
+
+section.rules p {
+	text-align: center; 
+}
+
+h2 {
+	      color: #006666;
+	 text-align: center; 
+	font-weight: 300;
+	  font-size: 20px;  
+}
+
+h3.feedback {
+	  position: absolute;
+	       top: 50%; 
+          left: 50%; 
+         width: 50%;
+   font-weight: 700; 
+     font-size: 100px; 
+	     color: white;
+	text-align: center; 
+	    margin: -35px 0 0 -25%;
+
+}
+
+
+form p {
+	  font-size: 15px; 
+	font-family: Arial; 	
+	line-height: 20px; 
+	 text-align: center; 
+	     margin: 10px 0 10px 0px; 
+	      color: teal;
+}
+
+
+input#entry {
+	         display: block; 
+	          margin: auto;
+	      margin-top: 2%; 
+	       font-size: 72px; 
+	          height: 120px; 
+	           width: 120px; 
+	     font-weight: 700;  
+	background-color: transparent;
+	          border: 5px solid #006666;
+	   border-radius: 120px; 	  
+	      text-align: center; 
+}
+
+input#entry:focus {
+	       border: 5px solid #006666;	
+	       height: 120px; 
+	        width: 120px;
+	border-radius: 120px;
+	      outline: none;
+}
+
+button#enter {
+			   width: 180px;
+			  height: 35px;
+	background-color: transparent;
+		 font-weight: 400; 
+		   font-size: 30px; 
+		      border: none; 
+			 display: block;
+			  margin: auto;
+		  margin-top: 2%; 
+			   color: #006666;
+		 font-weight: 700; 
+}
+
+
+
+section.guesses {
+	position: relative;
+		 top: 75%;
+		left: 50%;
+	   width: 40%; 
+	  margin: 0 0 0 -20%; 
+	   color: black;	
+	 display: none; 	
+}
+
+h2.guesses {
+		  display: none; 
+	margin-bottom: 10px; 
+}
+
+img.guesses {
+	vertical-align: middle; 
+}
+
+ul.guesses {	 
+	text-align: center; 
+	     width: 80%;
+		margin: auto;
+		height: 100%; 
+	  overflow: auto; 
+	   display: none; 
+		border: 1px dashed #006666; 
+}
+
+li.guesses {
+		display: inline; 
+		  width: 30px;	 
+		 margin: 10px; 
+	  font-size: 20px; 
+	line-height: 40px; 
+		  float: left;
+}
+
+#veryHot {
+ 		 position: relative; 
+ background-color: #F22613; 
+ 			width: 100%; 
+ 		   height: 100%;
+ 		 position: absolute;
+ 			  top: 0; 
+
+}
+
+#hot {
+		 		 
+ background-color: #f39c12; 
+ 			width: 100%; 
+ 		   height: 100%;
+ 	     position: absolute; 
+			  top: 0;
+ 		 
+}
+
+#warm {
+ background-color: #f1c40f; 
+ 			width: 100%; 
+ 		   height: 100%;
+ 		 position: absolute;
+ 			  top: 0; 
+}
+
+#cold {	 
+ background-color: #4B77BE; 
+ 		    width: 100%; 
+ 		   height: 100%;
+ 		 position: absolute;
+ 			  top: 0; 
+}
+
+#iceCold {	
+ background-color: #89C4F4; 
+ 			width: 100%; 
+ 		   height: 100%;
+ 		 position: absolute;
+ 			  top: 0; 
+}
+
+#victory {	
+ 	width: 100%; 
+   height: 100%;
+ position: absolute;
+ 	  top: 0; 
+}

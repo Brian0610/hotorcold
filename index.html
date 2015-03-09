@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hot or Cold App</title>
+	<link rel="stylesheet" type="text/css" href="reset.css" />
+	<link rel="stylesheet" type="text/css" href="main.css" />
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+</head>
+<body>
+
+	<div id="container">
+		<header>		
+			<h1>[ Hot or Cold ]</h1>
+		</header>
+		
+		<form>
+			<p>Pick a number between 0 and 99</p>	
+			<input type="text" maxlength="2" id="entry" autofocus autocomplete="off" />
+			<button id="enter">ENTER</button>
+			<div id='feedback'></div>
+		</form>
+		
+		<section class="guesses">
+			<h2 class="guesses">Show Previous Guesses
+				<img class="guesses" src="images/downArrow.gif" /></h2>
+			
+			<ul class="guesses"></ul>
+		</section>
+	</div>
+</body>
+</html>
